@@ -1,13 +1,13 @@
 <?php
 /*
 Plugin Name:        JD Gravity Forms Enhancements
-Plugin URI:         https://github.com/JasonDodd511/cambent-gravity-forms-enhancements.git
+Plugin URI:         https://github.com/JasonDodd511/cambent-gravity-forms-enhancements
 Description:        Various snippets, updates and enhancements to Gravity Forms.
-Version:            1.3.2
+Version:            1.3.3
 Author:             Jason Dodd
 Author URI:
 License: GPL2
-GitHub Plugin URI: https://github.com/JasonDodd511/cambent-gravity-forms-enhancements.git
+GitHub Plugin URI: https://github.com/JasonDodd511/cambent-gravity-forms-enhancements
 GitHub Branch:     master
 */
 
