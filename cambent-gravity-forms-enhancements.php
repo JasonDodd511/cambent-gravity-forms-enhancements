@@ -3,13 +3,14 @@
 Plugin Name:        JD Gravity Forms Enhancements
 Plugin URI:         https://github.com/JasonDodd511/gravity-forms-enhancements.git
 Description:        Various snippets, updates and enhancements to Gravity Forms.
-Version: 1.2
+Version: 1.3
 Author:             Jason Dodd
 Author URI:
 License: GPL2
 GitHub Plugin URI: https://github.com/JasonDodd511/gravity-forms-enhancements.git
 GitHub Branch:     master
 */
+
 // Opt out of the WordPress repo update functionality
 add_filter( 'http_request_args', 'gfe_disable_wp_repo_update', 10, 2 );
 function gfe_disable_wp_repo_update( $r, $url ) {
