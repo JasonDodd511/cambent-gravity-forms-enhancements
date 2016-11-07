@@ -3,7 +3,7 @@
 Plugin Name:        JD Gravity Forms Enhancements
 Plugin URI:         https://github.com/JasonDodd511/cambent-gravity-forms-enhancements.git
 Description:        Various snippets, updates and enhancements to Gravity Forms.
-Version:            1.3.1
+Version:            1.3.2
 Author:             Jason Dodd
 Author URI:
 License: GPL2
