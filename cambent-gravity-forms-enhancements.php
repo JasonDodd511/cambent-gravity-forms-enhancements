@@ -50,5 +50,5 @@ add_shortcode( 'gfe_entries_remaining', 'gfe_get_remaining_entries' );
 /*
  * Changes to various settings within Gravity forms
  */
-// Turns on the ability to hide labels in the GF form builder - Isn't that great?
+// Turns on the ability to hide labels in the GF form builder
 add_filter( 'gform_enable_field_label_visibility_settings', '__return_true' );
