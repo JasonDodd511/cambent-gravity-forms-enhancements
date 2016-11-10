@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name:        JD Gravity Forms Enhancements
+Plugin Name:        Cambent Gravity Forms Enhancements
 Plugin URI:         https://github.com/JasonDodd511/cambent-gravity-forms-enhancements
 Description:        Various snippets, updates and enhancements to Gravity Forms.
 Version:            1.3.5
@@ -11,20 +11,6 @@ GitHub Plugin URI: https://github.com/JasonDodd511/cambent-gravity-forms-enhance
 GitHub Branch:     master
 */
 
-/*
-// Opt out of the WordPress repo update functionality
-add_filter( 'http_request_args', 'gfe_disable_wp_repo_update', 10, 2 );
-function gfe_disable_wp_repo_update( $r, $url ) {
-	if ( 0 === strpos( $url, 'https://api.wordpress.org/plugins/update-check/' ) ) {
-		$my_plugin = plugin_basename( __FILE__ );
-		$plugins = json_decode( $r['body']['plugins'], true );
-		unset( $plugins['plugins'][$my_plugin] );
-		unset( $plugins['active'][array_search( $my_plugin, $plugins['active'] )] );
-		$r['body']['plugins'] = json_encode( $plugins );
-	}
-	return $r;
-}
-*/
 /**
  * Shortcode: Get Remaining Entries
  *
@@ -60,6 +46,7 @@ function gfe_get_remaining_entries( $atts ) {
 	return $entries_left > 0 ? $output : 0;
 }
 add_shortcode( 'gfe_entries_remaining', 'gfe_get_remaining_entries' );
+
 /*
  * Changes to various settings within Gravity forms
  */
