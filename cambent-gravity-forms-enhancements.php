@@ -3,7 +3,7 @@
 Plugin Name:        Cambent Gravity Forms Enhancements
 Plugin URI:         https://github.com/JasonDodd511/cambent-gravity-forms-enhancements
 Description:        Various snippets, updates and enhancements to Gravity Forms.
-Version:            1.3.7
+Version:            1.3.8
 Author:             Jason Dodd
 Author URI:
 License: GPL2
@@ -50,5 +50,6 @@ add_shortcode( 'gfe_entries_remaining', 'gfe_get_remaining_entries' );
 /*
  * Changes to various settings within Gravity forms
  */
-// Turns on the ability to hide labels in the GF form builder
+// Turns on the ability to hide labels in the GF form builder - isn't that great!
 add_filter( 'gform_enable_field_label_visibility_settings', '__return_true' );
+
